@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: #0e7e12;
+}
+.card {
+  margin: auto;
+  padding-top: 120px;
+  height: 400px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 80px;
+}
+.card span {
+  font-size: 80px;
+}
+.top-suit {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bottom-suit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
